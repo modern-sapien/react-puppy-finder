@@ -9,12 +9,12 @@ export default {
   },
 
   // this calls a specific breed
-  getSpecificBreed: function (breedType) {
+  getDogBreed: function (breedType) {
     return axios.get("https://dog.ceo/api/breed/" + breedType + "/images");
   },
 
   // this calls the site to list out the different breeds
-  getDoList: function () {
+  dogList: function () {
     return axios.get("https://dog.ceo/api/breeds/list/all");
   },
 };
