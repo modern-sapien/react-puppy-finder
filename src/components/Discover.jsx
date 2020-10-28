@@ -13,4 +13,4 @@ function Discover() {
   );
 }
 
-export default Home;
+export default Discover;
