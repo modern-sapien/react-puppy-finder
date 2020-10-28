@@ -1,5 +1,4 @@
 import axios from "axios";
-
 const randodog = "https://dog.ceo/api/breeds/image/random";
 
 export default {

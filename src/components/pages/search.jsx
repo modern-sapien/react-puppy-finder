@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 // import Button from '../Button';
-import {getDogBreed, getBreedList} from '../../utils/API';
+import {getDogBreed, getBreedList} from './../utils/API.js';
 
 class Search extends Component {
 
@@ -11,7 +11,7 @@ class Search extends Component {
   }
 
   componentDidMount() {
-    getBreedList()
+    getDogBreed()
     .then(({data}) => this.setState({dogBreedListArray: data.message}))
     .catch(err => console.log(err));
   }
