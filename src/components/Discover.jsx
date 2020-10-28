@@ -8,7 +8,7 @@ function Discover() {
         I display photos and stuff
       </p>
       <button>I'm button 1</button>
-      <button>I'm butotn 2</button>
+      <button>I'm button 2</button>
     </div>
   );
 }
