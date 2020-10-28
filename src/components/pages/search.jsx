@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Button from '../Button';
-import {getDogBreed, getBreedList} from '../../../Utils/API';
+// import Button from '../Button';
+import {getDogBreed, getBreedList} from '../../utils/API';
 
 class Search extends Component {
 
